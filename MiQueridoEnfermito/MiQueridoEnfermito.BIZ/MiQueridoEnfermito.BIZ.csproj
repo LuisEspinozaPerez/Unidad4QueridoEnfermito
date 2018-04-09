@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="4.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiQueridoEnfermito.COMMON\MiQueridoEnfermito.COMMON.csproj" />
+    <ProjectReference Include="..\MiQueridoEnfermito.DAL\MiQueridoEnfermito.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
